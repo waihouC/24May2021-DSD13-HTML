@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    background-color: salmon;
+}
+
+.frame1{
+    /* height: 400px; */
+    width: 1000px;
+    /* left-right auto to set to center */
+    margin: 40px auto;
+    background-color: white;
+}
+
+/* .carousel-item>img{
+    height: 390px;
+} */
+
+.discount-frame>div{
+    height: 49%;
+}
+
+/* margin pushes elements out of position */
+.discount-frame>div:nth-child(1){
+    /* top / left-right / bottom */
+    margin: 0% 2% 2.5%;
+}
+
+.discount-frame>div:nth-child(2){
+    margin: 2.5% 2% 0%;
+}
+
+.card{
+    position: relative;
+}
+
+/* if relative, will relative to parent card */
+.order{
+    position: absolute;
+    left: 60%;
+    bottom: -5%;
+}
+
+/* for pic that is too big */
+.card-img-box{
+    height: 200px;
+    overflow: hidden;
+}
+
+.progress{
+    margin: 5px;
+}
+
+.table-frame{
+    background-color: sandybrown;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.alert-animation{
+    animation-name: fade;
+    animation-duration: 5s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        display: none;
+    }
+}
